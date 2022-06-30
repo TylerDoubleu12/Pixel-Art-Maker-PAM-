@@ -19,12 +19,12 @@ function pixelGrid(grid) {
   let gridHeight = gh.value;
   let gridWidth = gw.value;
   
-  for (let i = 0; i <= gridHeight; i=i+1) {
+  for (let i = 0; i < gridHeight; i=i+1) {
     const gridRow = document.createElement("tr");
     gridRow.classList ="rowss"+i;
 
 
-    for (let j = 0; j <= gridWidth; j=j+1) {
+    for (let j = 0; j < gridWidth; j=j+1) {
       const gridColumn = document.createElement("td");
       gridColumn.classList = "rowss+columnss"+j;
       gridRow.appendChild(gridColumn);
