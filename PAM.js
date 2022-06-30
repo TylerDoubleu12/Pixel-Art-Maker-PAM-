@@ -49,11 +49,11 @@ function removeGrid() {
   
   const removeColumns = document.querySelectorAll("td");
   removeColumns.forEach((columns) => {
-    columns.removeColumns();
+    columns.remove();
   });
 
   const removeRows = document.querySelectorAll("tr");
   removeRows.forEach((rows) => {
-    rows.removeRows();
+    rows.remove();
   });
 }
